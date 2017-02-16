@@ -11,7 +11,6 @@ h2 {
     float: left;
 }
 
-
 tr:hover, td:hover {
     background-color: #71EEB8;
 }
@@ -20,6 +19,7 @@ tr:first-of-type{
     padding: 5px;
     background-color: #2fe2f9;
 }
+
 a:hover {
     font-size: large;
 }
@@ -27,7 +27,6 @@ a:hover {
 a:visited {
     color: green;
     padding: 4px;
-    
 }
 
 body {
@@ -45,6 +44,10 @@ p {
     font-size: small;
 }
 
+.red {
+    color: red;
+}
+
 .secret {
     font-size: 0;
     font-stretch: ultra-condensed;
@@ -53,14 +56,12 @@ p {
 
 .line {
     display: inline-block;
+    vertical-align: top;
     position: relative;
     border: 5px dotted red;
-    
 }
 
-
-/*body {*/
-    /*background-image: url("http://www.circlek.org/Libraries/2013_branding_design_elements/graphic_CKI_horizontal_stripesblue_RGB.sflb.ashx");
-    background-position: center;*/
-/*}*/
-
+td:nth-child(3):hover {
+    background-color: black;
+    color: #16f921;
+}
